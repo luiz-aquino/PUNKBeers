@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbName: UILabel!
+    @IBOutlet weak var lbTagline: UILabel!
+    @IBOutlet weak var imgBeverage: UIImageView!
+    @IBOutlet weak var tvDescription: UITextView!
+    
+    var beverage:Beverage!;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if beverage != nil {
+            lbName.text = beverage.name
+            lbTagline.text = beverage.tagline
+            tvDescription.text = beverage.description
+            imgBeverage.kf.setImage(with: URL(string: beverage.imageUrl))
+        }
     }
 
     override func didReceiveMemoryWarning() {
