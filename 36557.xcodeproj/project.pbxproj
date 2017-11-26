@@ -30,7 +30,7 @@
 		08A94C1335646B6290C4043F /* Pods-PunkApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PunkApi/Pods-PunkApi.debug.xcconfig"; sourceTree = "<group>"; };
 		535803CFB77129E151CB9C11 /* Pods-PunkApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-PunkApi/Pods-PunkApi.release.xcconfig"; sourceTree = "<group>"; };
 		878C40E6ACCC8C7415771A56 /* Pods_PunkApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C3353091FCB10B200DC1041 /* PunkApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunkApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3353091FCB10B200DC1041 /* 36557.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 36557.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C33530C1FCB10B200DC1041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C33530E1FCB10B200DC1041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C3353111FCB10B200DC1041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		8C33530A1FCB10B200DC1041 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C3353091FCB10B200DC1041 /* PunkApi.app */,
+				8C3353091FCB10B200DC1041 /* 36557.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C3353081FCB10B200DC1041 /* PunkApi */ = {
+		8C3353081FCB10B200DC1041 /* 36557 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C33531B1FCB10B200DC1041 /* Build configuration list for PBXNativeTarget "PunkApi" */;
+			buildConfigurationList = 8C33531B1FCB10B200DC1041 /* Build configuration list for PBXNativeTarget "36557" */;
 			buildPhases = (
 				5D492C029B44FFD87569FF3B /* [CP] Check Pods Manifest.lock */,
 				8C3353051FCB10B200DC1041 /* Sources */,
@@ -139,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = PunkApi;
+			name = 36557;
 			productName = PunkApi;
-			productReference = 8C3353091FCB10B200DC1041 /* PunkApi.app */;
+			productReference = 8C3353091FCB10B200DC1041 /* 36557.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C3353041FCB10B100DC1041 /* Build configuration list for PBXProject "PunkApi" */;
+			buildConfigurationList = 8C3353041FCB10B100DC1041 /* Build configuration list for PBXProject "36557" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C3353081FCB10B200DC1041 /* PunkApi */,
+				8C3353081FCB10B200DC1041 /* 36557 */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 				DEVELOPMENT_TEAM = 455Y65BWFG;
 				INFOPLIST_FILE = PunkApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizaquino.PunkApi;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizaquino.PunkBeers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -420,7 +420,7 @@
 				DEVELOPMENT_TEAM = 455Y65BWFG;
 				INFOPLIST_FILE = PunkApi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizaquino.PunkApi;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.luizaquino.PunkBeers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -430,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C3353041FCB10B100DC1041 /* Build configuration list for PBXProject "PunkApi" */ = {
+		8C3353041FCB10B100DC1041 /* Build configuration list for PBXProject "36557" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C3353191FCB10B200DC1041 /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C33531B1FCB10B200DC1041 /* Build configuration list for PBXNativeTarget "PunkApi" */ = {
+		8C33531B1FCB10B200DC1041 /* Build configuration list for PBXNativeTarget "36557" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C33531C1FCB10B200DC1041 /* Debug */,

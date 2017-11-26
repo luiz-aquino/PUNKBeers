@@ -57,7 +57,9 @@ class REST {
                             let firstBrewed = item["first_brewed"] as! String
                             let description = item["description"] as! String
                             let imageUrl = item["image_url"] as! String
-                            let beverage = Beverage(id: id, name: name, tagline: tagline, firstBrewed: firstBrewed, description: description, imageUrl: imageUrl)
+                            let abv = item["abv"] as! Double
+                            let ibu = item["ibu"] as? Double
+                            let beverage = Beverage(id: id, name: name, tagline: tagline, firstBrewed: firstBrewed, description: description, imageUrl: imageUrl, abv: abv, ibu: ibu ?? 0)
                             beverages.append(beverage)
                         }
                         onComplete(beverages)

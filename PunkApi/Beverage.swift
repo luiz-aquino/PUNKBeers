@@ -16,7 +16,7 @@ class Beverage {
     var description: String;
     var imageUrl: String;
     var abv: Double;
-    var ibu: Int;
+    var ibu: Double;
     var targetFg: Int;
     var targetOg: Int;
     var ebc: Int;
@@ -31,7 +31,7 @@ class Beverage {
     var brewersTips: String!;
     var contributedBy: String!;
     
-    init(id: Int, name: String, tagline: String, firstBrewed: String, description: String, imageUrl: String, abv: Double, ibu: Int, targetFg: Int, targetOg: Int, ebc: Int, srm: Int, ph: Double, attenuationLevel: Int, volume: ValueUnit, boilVolume: ValueUnit, method: BeverageMethod, ingredients: BeverageIngredient , foodPairing: [String], brewersTips: String, contributedBy: String){
+    init(id: Int, name: String, tagline: String, firstBrewed: String, description: String, imageUrl: String, abv: Double, ibu: Double, targetFg: Int, targetOg: Int, ebc: Int, srm: Int, ph: Double, attenuationLevel: Int, volume: ValueUnit, boilVolume: ValueUnit, method: BeverageMethod, ingredients: BeverageIngredient , foodPairing: [String], brewersTips: String, contributedBy: String){
         self.id = id;
         self.name = name;
         self.tagline = tagline;
@@ -55,16 +55,16 @@ class Beverage {
         self.contributedBy = contributedBy;
     }
     
-    init(id: Int, name: String, tagline: String, firstBrewed: String, description: String, imageUrl: String) {
+    init(id: Int, name: String, tagline: String, firstBrewed: String, description: String, imageUrl: String, abv: Double, ibu: Double) {
         self.id = id;
         self.name = name;
         self.tagline = tagline;
         self.firstBrewed = firstBrewed;
         self.description = description;
         self.imageUrl = imageUrl;
+        self.abv = abv;
+        self.ibu = ibu;
         
-        self.abv = 0.0;
-        self.ibu = 0;
         self.targetFg = 0;
         self.targetOg = 0;
         self.ebc = 0;

@@ -55,7 +55,7 @@ class BeverageTableViewController: UITableViewController {
             let beverage = beverages[indexPath.row]
             cell.imgBeverage.kf.setImage(with: URL(string: beverage.imageUrl))
             cell.lbName.text = beverage.name
-            cell.lbTagline.text = beverage.tagline
+            cell.lbAbv.text = "\(beverage.abv)"
         }
 
         return cell

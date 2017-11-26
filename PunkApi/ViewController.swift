@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbTagline: UILabel!
     @IBOutlet weak var imgBeverage: UIImageView!
     @IBOutlet weak var tvDescription: UITextView!
+    @IBOutlet weak var lbAbv: UILabel!
+    @IBOutlet weak var lbIbu: UILabel!
     
     var beverage:Beverage!;
     
@@ -25,6 +27,8 @@ class ViewController: UIViewController {
             lbTagline.text = beverage.tagline
             tvDescription.text = beverage.description
             imgBeverage.kf.setImage(with: URL(string: beverage.imageUrl))
+            lbAbv.text = "\(beverage.abv)"
+            lbIbu.text = "\(beverage.ibu)"
         }
     }
 
