@@ -74,7 +74,7 @@
 		8C3353001FCB10B100DC1041 = {
 			isa = PBXGroup;
 			children = (
-				8C33530B1FCB10B200DC1041 /* PunkApi */,
+				8C33530B1FCB10B200DC1041 /* PunkBeer */,
 				8C33530A1FCB10B200DC1041 /* Products */,
 				3AE8476CB83BE01A2B4B73D7 /* Pods */,
 				8D526E8750A7FC8D2F042F24 /* Frameworks */,
@@ -89,7 +89,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C33530B1FCB10B200DC1041 /* PunkApi */ = {
+		8C33530B1FCB10B200DC1041 /* PunkBeer */ = {
 			isa = PBXGroup;
 			children = (
 				8C33530C1FCB10B200DC1041 /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				8C3353181FCB10B200DC1041 /* Info.plist */,
 				8C3353301FCB462F00DC1041 /* BeverageTableViewCell.swift */,
 			);
-			path = PunkApi;
+			path = PunkBeer;
 			sourceTree = "<group>";
 		};
 		8D526E8750A7FC8D2F042F24 /* Frameworks */ = {

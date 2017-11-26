@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E2726FC16C1C32C9C1C7DEE96B9DF4 /* Pods_PunkApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PunkApi.framework; path = "Pods-PunkApi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E2726FC16C1C32C9C1C7DEE96B9DF4 /* Pods_PunkApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		023C24331AF069FFB31BE4575FF92A66 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		04FB17757D2C4134E6CE42B7EBA33FF2 /* Pods-PunkApi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PunkApi.modulemap"; sourceTree = "<group>"; };
+		04FB17757D2C4134E6CE42B7EBA33FF2 /* Pods-PunkApi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PunkApi.modulemap"; sourceTree = "<group>"; };
 		0D956B1F98CD4A7EDF887CFCB3AA1E6E /* Pods-PunkApi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PunkApi-resources.sh"; sourceTree = "<group>"; };
 		0F7DF0BCFC0710953CC5FF9972BE0B04 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		1F4B0CD51D6C1802A2C2033A836D181E /* Pods-PunkApi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PunkApi-frameworks.sh"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		52DC30D7E6C1223D54467216A97B0B7D /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
 		685A4E99CB4F94AC0F404F519C7AC866 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
 		72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FA6100B5CDA0A51737954E7E2D1DE2D /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		7FA6100B5CDA0A51737954E7E2D1DE2D /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		81AE08F84342F7AB3680E0E6F7574A5A /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
 		835802EEFCA95C3BECB444475FEB53AD /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
 		835C82F8B413C5FC71B973BC63C7530C /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		8D9580FED9E6FCE2C7845BC03E63D50A /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
 		8DC875D6BCDEC1D273EDD95695790E7B /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		9295207D7CEECE2F5BDCD8CD84920ABE /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE82DBBC7E05AAB24A9BC855BE5E0C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0AEF804C3FF811567DCF8CBD32A1D5 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		A1791E48E319018D19A4085F3A0308EC /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		ECB8A9E00B1031B5EEF4FADC65A407A6 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		F1DA91233A58A2FDA9DBACE4D8B923A8 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		F46EFC5CDAF57A92A7B136FFD3525675 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		FB9C8CEA8492285E55BE57A691BAF1D0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9C8CEA8492285E55BE57A691BAF1D0 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +159,6 @@
 				C1AF856B3D835339E6E446917C5312B6 /* UIButton+Kingfisher.swift */,
 				0DEE2A01FA885B4899312B6F6826FDBF /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -183,7 +182,7 @@
 		74B17159D46F761FE59D61C208F44F23 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkApi */,
+				CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkBeer */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -216,7 +215,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkApi */ = {
+		CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkBeer */ = {
 			isa = PBXGroup;
 			children = (
 				9BE82DBBC7E05AAB24A9BC855BE5E0C2 /* Info.plist */,
@@ -230,8 +229,8 @@
 				4937C3A310C311B59BFC528232CA22AC /* Pods-PunkApi.debug.xcconfig */,
 				387B190E7C2E0F196A58A9452C8ED581 /* Pods-PunkApi.release.xcconfig */,
 			);
-			name = "Pods-PunkApi";
-			path = "Target Support Files/Pods-PunkApi";
+			name = "Pods-PunkBeer";
+			path = "Target Support Files/Pods-PunkBeer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
