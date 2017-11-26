@@ -24,6 +24,7 @@
 		8C33532F1FCB356C00DC1041 /* BeverageIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C33532E1FCB356C00DC1041 /* BeverageIngredient.swift */; };
 		8C3353311FCB462F00DC1041 /* BeverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3353301FCB462F00DC1041 /* BeverageTableViewCell.swift */; };
 		8C3353331FCB510600DC1041 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3353321FCB510600DC1041 /* REST.swift */; };
+		8CD09C761FCB895E003912BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD09C751FCB895D003912BF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		8C33532E1FCB356C00DC1041 /* BeverageIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageIngredient.swift; sourceTree = "<group>"; };
 		8C3353301FCB462F00DC1041 /* BeverageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageTableViewCell.swift; sourceTree = "<group>"; };
 		8C3353321FCB510600DC1041 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		8CD09C751FCB895D003912BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		8C3353001FCB10B100DC1041 = {
 			isa = PBXGroup;
 			children = (
+				8CD09C751FCB895D003912BF /* Default-568h@2x.png */,
 				8C33530B1FCB10B200DC1041 /* PunkBeer */,
 				8C33530A1FCB10B200DC1041 /* Products */,
 				3AE8476CB83BE01A2B4B73D7 /* Pods */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3353171FCB10B200DC1041 /* LaunchScreen.storyboard in Resources */,
+				8CD09C761FCB895E003912BF /* Default-568h@2x.png in Resources */,
 				8C3353141FCB10B200DC1041 /* Assets.xcassets in Resources */,
 				8C3353121FCB10B200DC1041 /* Main.storyboard in Resources */,
 			);
