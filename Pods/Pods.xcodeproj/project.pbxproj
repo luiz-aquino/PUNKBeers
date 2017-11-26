@@ -182,7 +182,7 @@
 		74B17159D46F761FE59D61C208F44F23 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkBeer */,
+				CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkApi */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkBeer */ = {
+		CF8987434AD69843C74C7F465A1BA122 /* Pods-PunkApi */ = {
 			isa = PBXGroup;
 			children = (
 				9BE82DBBC7E05AAB24A9BC855BE5E0C2 /* Info.plist */,
@@ -229,8 +229,8 @@
 				4937C3A310C311B59BFC528232CA22AC /* Pods-PunkApi.debug.xcconfig */,
 				387B190E7C2E0F196A58A9452C8ED581 /* Pods-PunkApi.release.xcconfig */,
 			);
-			name = "Pods-PunkBeer";
-			path = "Target Support Files/Pods-PunkBeer";
+			name = "Pods-PunkApi";
+			path = "Target Support Files/Pods-PunkApi";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
